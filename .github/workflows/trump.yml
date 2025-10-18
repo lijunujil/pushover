@@ -1,8 +1,8 @@
-name: Trump China Watcher
-on:
-  schedule:
-    - cron: "*/15 * * * *"  # every 15 minutes
-  workflow_dispatch:        # allow manual run
+#name: Trump China Watcher
+#on:
+#  schedule:
+##    - cron: "*/15 * * * *"  # every 15 minutes
+#  workflow_dispatch:        # allow manual run
 jobs:
   run:
     runs-on: ubuntu-latest
